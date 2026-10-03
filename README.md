@@ -14,21 +14,23 @@ Repositori ini disusun untuk memenuhi tugas Praktikum 2 - Pemrograman Web pada m
 ---
 
 ## Panduan Screenshot Tugas
-Simpan semua file tangkapan layar (screenshot) di dalam folder screenshots/ dengan format nama angka (1.png sampai 7.png) sesuai tabel berikut:
+Simpan semua file tangkapan layar (*screenshot*) di dalam folder `screenshots/` dengan format nama angka (`1.png` sampai `7.png`) sesuai tabel berikut:
 
-No File	Aplikasi / Lokasi	Yang Harus Di-Screenshot
-1.png	Browser (index.html)	Tampilan tabel data nilai mahasiswa yang memiliki header (<thead>), baris data (<tbody>), dan footer (<tfoot>) dengan colspan.
-2.png	Browser (index.html)	Tampilan form registrasi mahasiswa lengkap dengan input teks, email, password, tanggal lahir, umur, radio button jenis kelamin, checkbox keahlian, dropdown program studi, dan textarea alamat.
-3.png	Browser (index.html)	Uji coba validasi form dasar: saat kolom required dikosongkan lalu tombol submit diklik, muncul pesan peringatan validasi dari browser.
-4.png	Browser (index.html)	Tampilan pemutar multimedia audio dan video yang berhasil memuat file dari folder media/.
-5.png	Browser (biodata.html)	Tampilan bagian atas proyek mini: header semantik, navigasi, dan tabel biodata diri mahasiswa (NIM, Nama, Kelas, Prodi).
-6.png	Browser (biodata.html)	Tampilan bagian form pembaruan biodata mahasiswa dengan validasi atribut required.
-7.png	Browser (biodata.html)	Tampilan bagian bawah proyek mini: pemutar multimedia video/audio profil, aside, dan footer halaman.
+| No | File | Aplikasi / Lokasi | Yang Harus Di-Screenshot |
+| :---: | :--- | :--- | :--- |
+| 1 | `1.png` | Browser (`index.html`) | Tampilan tabel data nilai mahasiswa yang memiliki header (`<thead>`), baris data (`<tbody>`), dan footer (`<tfoot>`) dengan `colspan`. |
+| 2 | `2.png` | Browser (`index.html`) | Tampilan form registrasi mahasiswa lengkap dengan input teks, email, password, tanggal lahir, umur, radio button jenis kelamin, checkbox keahlian, dropdown program studi, dan textarea alamat. |
+| 3 | `3.png` | Browser (`index.html`) | Uji coba validasi form dasar: saat kolom required dikosongkan lalu tombol submit diklik, muncul pesan peringatan validasi dari browser. |
+| 4 | `4.png` | Browser (`index.html`) | Tampilan pemutar multimedia audio dan video yang berhasil memuat file dari folder `media/`. |
+| 5 | `5.png` | Browser (`biodata.html`) | Tampilan bagian atas proyek mini: header semantik, navigasi, dan tabel biodata diri mahasiswa (NIM, Nama, Kelas, Prodi). |
+| 6 | `6.png` | Browser (`biodata.html`) | Tampilan bagian form pembaruan biodata mahasiswa dengan validasi atribut required. |
+| 7 | `7.png` | Browser (`biodata.html`) | Tampilan bagian bawah proyek mini: pemutar multimedia video/audio profil, aside, dan footer halaman. |
 
 ---
 
 ## Struktur Direktori Proyek
 
+```text
 Lab2Web/
 ├── index.html
 ├── biodata.html
@@ -96,6 +98,7 @@ Tabel digunakan untuk menampilkan data dalam bentuk baris dan kolom. Pada tahap 
 ```
 
 **Screenshot Hasil:**
+
 <img width="959" height="293" alt="Screenshot 2026-10-03 165423" src="https://github.com/user-attachments/assets/f3d2ccfb-dd00-461a-933d-fae59de437aa" />
 
 ---
@@ -146,6 +149,7 @@ Membuat form registrasi mahasiswa menggunakan tag `<form>` yang menampung beraga
 ```
 
 **Screenshot Hasil:**
+
 <img width="959" height="330" alt="Screenshot 2026-10-03 165501" src="https://github.com/user-attachments/assets/92f88512-828f-4c61-9444-c0aaee58591a" />
 
 ---
@@ -159,6 +163,7 @@ Validasi formulir dilakukan langsung di sisi peramban (*client-side*) menggunaka
 * `type="email"`: Secara otomatis memeriksa pola penulisan format email.
 
 **Screenshot Hasil:**
+
 <img width="212" height="119" alt="Screenshot 2026-10-03 165531" src="https://github.com/user-attachments/assets/4a02242f-7ac8-42ce-a926-24a8f12df3e3" />
 
 
@@ -187,6 +192,7 @@ Memasukkan media audio dan video lokal ke halaman web dengan meletakkannya di da
 ```
 
 **Screenshot Hasil:**
+
 <img width="959" height="356" alt="Screenshot 2026-10-03 165548" src="https://github.com/user-attachments/assets/54ee669b-cada-48bb-bffc-b9b3d25f4e21" />
 
 ---
@@ -247,6 +253,7 @@ Sebagai proyek mini integrasi, dibuat file baru bernama `biodata.html` yang meng
 ```
 
 **Screenshot Hasil Proyek Mini:**
+
 <img width="335" height="424" alt="Screenshot 2026-10-03 165656" src="https://github.com/user-attachments/assets/8702b16a-2121-4894-b8d6-658daf10aedc" />
 
 ---
