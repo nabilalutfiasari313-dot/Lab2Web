@@ -141,10 +141,11 @@ Membuat form registrasi mahasiswa menggunakan tag `<form>` yang menampung beraga
     <button type="reset">Reset Form</button>
 </form>
 
-
+```
 
 **Screenshot Hasil:**
-*(Masukkan file `screenshots/2.png` di sini)*
+<img width="959" height="293" alt="Screenshot 2026-10-03 165423" src="https://github.com/user-attachments/assets/2281d0d2-7b23-434b-baa2-fd619ad64227" />
+
 
 ---
 
