@@ -315,17 +315,16 @@ Sebagai proyek mini integrasi, dibuat file baru bernama `biodata.html` yang meng
 
 ## Checklist Sebelum Dikumpulkan
 
-* Tabel berhasil ditampilkan dan memiliki header (`<thead>`, `<tbody>`, `<tfoot>`, `colspan`).
-* Form memiliki label dan beberapa jenis input.
-* Radio button dan checkbox sudah digunakan.
-* Select dan textarea sudah digunakan.
-* Validasi `required` dan validasi dasar lainnya sudah dicoba.
-* Semantic HTML sudah digunakan.
-* Audio dan video berhasil ditampilkan dari folder `media/`.
-* Proyek mini biodata (`biodata.html`) menggabungkan seluruh materi utama.
-* README.md sudah menjelaskan proses praktikum dan memuat 10 jawaban evaluasi.
-* Repository sudah di-commit secara manual oleh mahasiswa.
-
-© 2026 Teknik Informatika - Universitas Pelita Bangsa | Nabila Lutfia Sari (312510040)
+## Checklist Sebelum Dikumpulkan
+- [x] Tabel berhasil ditampilkan dan memiliki header (`<thead>`, `<tbody>`, `<tfoot>`, `colspan`).
+- [x] Form memiliki label dan beberapa jenis input.
+- [x] Radio button dan checkbox sudah digunakan.
+- [x] Select dan textarea sudah digunakan.
+- [x] Validasi `required` dan validasi dasar lainnya sudah dicoba.
+- [x] Semantic HTML sudah digunakan.
+- [x] Audio dan video berhasil ditampilkan dari folder `media/`.
+- [x] Proyek mini biodata (`biodata.html`) menggabungkan seluruh materi utama.
+- [x] README.md sudah menjelaskan proses praktikum dan memuat 10 jawaban evaluasi.
+- [x] Repository sudah di-commit secara manual oleh mahasiswa.
 
 ```
