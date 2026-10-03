@@ -313,7 +313,6 @@ Sebagai proyek mini integrasi, dibuat file baru bernama `biodata.html` yang meng
 
 ---
 
-## Checklist Sebelum Dikumpulkan
 
 ## Checklist Sebelum Dikumpulkan
 - [x] Tabel berhasil ditampilkan dan memiliki header (`<thead>`, `<tbody>`, `<tfoot>`, `colspan`).
