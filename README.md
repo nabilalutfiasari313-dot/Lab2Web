@@ -1,4 +1,3 @@
-```markdown
 # Laporan Praktikum 2 - Pemrograman Web (Lab2Web)
 
 Repositori ini disusun untuk memenuhi tugas Praktikum 2 - Pemrograman Web pada mata kuliah Pemrograman Web.
@@ -30,7 +29,6 @@ No File	Aplikasi / Lokasi	Yang Harus Di-Screenshot
 
 ## Struktur Direktori Proyek
 
-```text
 Lab2Web/
 ├── index.html
 ├── biodata.html
@@ -98,7 +96,7 @@ Tabel digunakan untuk menampilkan data dalam bentuk baris dan kolom. Pada tahap 
 ```
 
 **Screenshot Hasil:**
-*(Masukkan file `screenshots/1.png` di sini)*
+<img width="959" height="293" alt="Screenshot 2026-10-03 165423" src="https://github.com/user-attachments/assets/f3d2ccfb-dd00-461a-933d-fae59de437aa" />
 
 ---
 
@@ -148,7 +146,7 @@ Membuat form registrasi mahasiswa menggunakan tag `<form>` yang menampung beraga
 ```
 
 **Screenshot Hasil:**
-*(Masukkan file `screenshots/2.png` di sini)*
+<img width="959" height="330" alt="Screenshot 2026-10-03 165501" src="https://github.com/user-attachments/assets/92f88512-828f-4c61-9444-c0aaee58591a" />
 
 ---
 
@@ -161,7 +159,8 @@ Validasi formulir dilakukan langsung di sisi peramban (*client-side*) menggunaka
 * `type="email"`: Secara otomatis memeriksa pola penulisan format email.
 
 **Screenshot Hasil:**
-*(Masukkan file `screenshots/3.png` di sini)*
+<img width="212" height="119" alt="Screenshot 2026-10-03 165531" src="https://github.com/user-attachments/assets/4a02242f-7ac8-42ce-a926-24a8f12df3e3" />
+
 
 ---
 
@@ -188,7 +187,7 @@ Memasukkan media audio dan video lokal ke halaman web dengan meletakkannya di da
 ```
 
 **Screenshot Hasil:**
-*(Masukkan file `screenshots/4.png` di sini)*
+<img width="959" height="356" alt="Screenshot 2026-10-03 165548" src="https://github.com/user-attachments/assets/54ee669b-cada-48bb-bffc-b9b3d25f4e21" />
 
 ---
 
@@ -248,10 +247,7 @@ Sebagai proyek mini integrasi, dibuat file baru bernama `biodata.html` yang meng
 ```
 
 **Screenshot Hasil Proyek Mini:**
-
-* Tabel Biodata Diri: *(Masukkan file `screenshots/5.png` di sini)*
-* Formulir Biodata Mahasiswa: *(Masukkan file `screenshots/6.png` di sini)*
-* Multimedia Profil & Footer: *(Masukkan file `screenshots/7.png` di sini)*
+<img width="335" height="424" alt="Screenshot 2026-10-03 165656" src="https://github.com/user-attachments/assets/8702b16a-2121-4894-b8d6-658daf10aedc" />
 
 ---
 
@@ -324,9 +320,5 @@ Sebagai proyek mini integrasi, dibuat file baru bernama `biodata.html` yang meng
 * Repository sudah di-commit secara manual oleh mahasiswa.
 
 © 2026 Teknik Informatika - Universitas Pelita Bangsa | Nabila Lutfia Sari (312510040)
-
-```
-
-Nah, sekarang semuanya sudah murni atas nama dan data kamu ya! Silakan *copy* dan perbarui file `README.md` di GitHub kamu.
 
 ```
