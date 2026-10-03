@@ -15,17 +15,16 @@ Repositori ini disusun untuk memenuhi tugas Praktikum 2 - Pemrograman Web pada m
 ---
 
 ## Panduan Screenshot Tugas
-Simpan semua file tangkapan layar (*screenshot*) di dalam folder `screenshots/` dengan format nama angka (`1.png` sampai `7.png`) sesuai tabel berikut:
+Simpan semua file tangkapan layar (screenshot) di dalam folder screenshots/ dengan format nama angka (1.png sampai 7.png) sesuai tabel berikut:
 
-| No | File | Aplikasi / Lokasi | Yang Harus Di-Screenshot |
-|:--:|:--|:---|:---|
-| 1 | `1.png` | Browser (`index.html`) | Tampilan tabel data nilai mahasiswa yang memiliki header (`<thead>`), baris data (`<tbody>`), dan footer (`<tfoot>`) dengan `colspan`. |
-| 2 | `2.png` | Browser (`index.html`) | Tampilan form registrasi mahasiswa lengkap dengan input teks, email, password, tanggal lahir, umur, radio button jenis kelamin, checkbox keahlian, dropdown program studi, dan textarea alamat. |
-| 3 | `3.png` | Browser (`index.html`) | Uji coba validasi form dasar: saat kolom required dikosongkan lalu tombol submit diklik, muncul pesan peringatan validasi dari browser. |
-| 4 | `4.png` | Browser (`index.html`) | Tampilan pemutar multimedia audio dan video yang berhasil memuat file dari folder `media/`. |
-| 5 | `5.png` | Browser (`biodata.html`) | Tampilan bagian atas proyek mini: header semantik, navigasi, dan tabel biodata diri mahasiswa (NIM, Nama, Kelas, Prodi). |
-| 6 | `6.png` | Browser (`biodata.html`) | Tampilan bagian form pembaruan biodata mahasiswa dengan validasi atribut required. |
-| 7 | `7.png` | Browser (`biodata.html`) | Tampilan bagian bawah proyek mini: pemutar multimedia video/audio profil, aside, dan footer halaman. |
+No File	Aplikasi / Lokasi	Yang Harus Di-Screenshot
+1.png	Browser (index.html)	Tampilan tabel data nilai mahasiswa yang memiliki header (<thead>), baris data (<tbody>), dan footer (<tfoot>) dengan colspan.
+2.png	Browser (index.html)	Tampilan form registrasi mahasiswa lengkap dengan input teks, email, password, tanggal lahir, umur, radio button jenis kelamin, checkbox keahlian, dropdown program studi, dan textarea alamat.
+3.png	Browser (index.html)	Uji coba validasi form dasar: saat kolom required dikosongkan lalu tombol submit diklik, muncul pesan peringatan validasi dari browser.
+4.png	Browser (index.html)	Tampilan pemutar multimedia audio dan video yang berhasil memuat file dari folder media/.
+5.png	Browser (biodata.html)	Tampilan bagian atas proyek mini: header semantik, navigasi, dan tabel biodata diri mahasiswa (NIM, Nama, Kelas, Prodi).
+6.png	Browser (biodata.html)	Tampilan bagian form pembaruan biodata mahasiswa dengan validasi atribut required.
+7.png	Browser (biodata.html)	Tampilan bagian bawah proyek mini: pemutar multimedia video/audio profil, aside, dan footer halaman.
 
 ---
 
