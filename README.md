@@ -1,3 +1,4 @@
+```markdown
 # Laporan Praktikum 2 - Pemrograman Web (Lab2Web)
 
 Repositori ini disusun untuk memenuhi tugas Praktikum 2 - Pemrograman Web pada mata kuliah Pemrograman Web.
@@ -9,7 +10,7 @@ Repositori ini disusun untuk memenuhi tugas Praktikum 2 - Pemrograman Web pada m
 * **Kelas:** TI25A
 * **Program Studi:** Teknik Informatika
 * **Dosen Pengampu:** Agung Nugroho, S.Kom., M.Kom.
-* **Kampus:** Universitas Pelita Bangsa
+* **Kampus:** Universitas Pelita Bangsa, Bekasi
 
 ---
 
@@ -29,6 +30,8 @@ Simpan semua file tangkapan layar (*screenshot*) di dalam folder `screenshots/` 
 ---
 
 ## Struktur Direktori Proyek
+
+```text
 Lab2Web/
 ├── index.html
 ├── biodata.html
@@ -44,6 +47,8 @@ Lab2Web/
 │   ├── 6.png
 │   └── 7.png
 └── README.md
+
+```
 
 ---
 
@@ -94,7 +99,7 @@ Tabel digunakan untuk menampilkan data dalam bentuk baris dan kolom. Pada tahap 
 ```
 
 **Screenshot Hasil:**
-*
+*(Masukkan file `screenshots/1.png` di sini)*
 
 ---
 
@@ -144,8 +149,7 @@ Membuat form registrasi mahasiswa menggunakan tag `<form>` yang menampung beraga
 ```
 
 **Screenshot Hasil:**
-<img width="959" height="293" alt="Screenshot 2026-10-03 165423" src="https://github.com/user-attachments/assets/2281d0d2-7b23-434b-baa2-fd619ad64227" />
-
+*(Masukkan file `screenshots/2.png` di sini)*
 
 ---
 
