@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Portal Mahasiswa - Praktikum HTML Lanjutan</title>
+</head>
+<body>
+
+    <!-- Semantic HTML: Header & Nav -->
+    <header>
+        <h1>Portal Mahasiswa</h1>
+        <nav>
+            <a href="#beranda">Beranda</a> | 
+            <a href="#profil">Profil</a> | 
+            <a href="#kontak">Kontak</a> | 
+            <a href="biodata.html">Proyek Mini (Biodata)</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="beranda">
+            <h2>Informasi Akademik</h2>
+            <article>
+                <h3>Praktikum HTML Lanjutan</h3>
+                <p>Mahasiswa mempelajari tabel, form, semantic HTML, multimedia, dan validasi.</p>
+            </article>
+        </section>
+
+        <hr>
+
+        <!-- Latihan 1 & 2: Tabel Data Mahasiswa -->
+        <section>
+            <h2>1 & 2. Tabel Data Mahasiswa</h2>
+            <table border="1">
+                <caption>Nilai Praktikum</caption>
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>NIM</th>
+                        <th>Nama</th>
+                        <th>Program Studi</th>
+                        <th>Nilai</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>31251001</td>
+                        <td>Andi</td>
+                        <td>Teknik Informatika</td>
+                        <td>85</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>31251002</td>
+                        <td>Budi</td>
+                        <td>Teknik Informatika</td>
+                        <td>90</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>31251040</td>
+                        <td>Nabila Lutfia Sari</td>
+                        <td>Teknik Informatika</td>
+                        <td>95</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="4">Rata-rata</td>
+                        <td>90</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <hr>
+
+        <!-- Latihan 3, 4, 5, 6: Form Registrasi & Validasi -->
+        <section>
+            <h2>3, 4, 5 & 6. Form Registrasi Mahasiswa</h2>
+            <form>
+                <label for="nama">Nama Lengkap:</label><br>
+                <input type="text" id="nama" name="nama" required minlength="3"><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="umur">Umur:</label><br>
+                <input type="number" id="umur" name="umur" min="17" max="60" required><br><br>
+
+                <label for="tanggal">Tanggal Lahir:</label><br>
+                <input type="date" id="tanggal" name="tanggal"><br><br>
+
+                <h3>Jenis Kelamin</h3>
+                <input type="radio" id="laki" name="jk" value="L">
+                <label for="laki">Laki-laki</label><br>
+                <input type="radio" id="perempuan" name="jk" value="P">
+                <label for="perempuan">Perempuan</label>
+
+                <h3>Keahlian</h3>
+                <input type="checkbox" id="html" name="skill" value="HTML">
+                <label for="html">HTML</label><br>
+                <input type="checkbox" id="css" name="skill" value="CSS">
+                <label for="css">CSS</label><br>
+                <input type="checkbox" id="js" name="skill" value="JavaScript">
+                <label for="js">JavaScript</label><br><br>
+
+                <label for="prodi">Program Studi</label><br>
+                <select id="prodi" name="prodi" required>
+                    <option value="">-- Pilih Prodi --</option>
+                    <option value="ti">Teknik Informatika</option>
+                    <option value="si">Sistem Informasi</option>
+                </select><br><br>
+
+                <label for="alamat">Alamat</label><br>
+                <textarea id="alamat" name="alamat" rows="5" cols="40" required></textarea><br><br>
+
+                <button type="submit">Simpan / Kirim</button>
+                <button type="reset">Reset</button>
+            </form>
+        </section>
+
+        <hr>
+
+        <!-- Latihan 8: Menambahkan Multimedia -->
+        <section>
+            <h2>8. Menambahkan Multimedia</h2>
+            
+            <h3>Audio</h3>
+            <audio controls>
+                <source src="media/audio.mp3" type="audio/mpeg">
+                Browser tidak mendukung audio.
+            </audio>
+
+            <h3>Video</h3>
+            <video controls width="400">
+                <source src="media/video.mp4" type="video/mp4">
+                Browser tidak mendukung video.
+            </video>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Teknik Informatika - Universitas Pelita Bangsa</p>
+    </footer>
+
+</body>
+</html>

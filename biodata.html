@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Halaman Biodata Mahasiswa</title>
+</head>
+<body>
+    <header>
+        <h1>Halaman Biodata Mahasiswa</h1>
+        <p>Proyek Mini Praktikum 2 - Pemrograman Web</p>
+        <nav>
+            <a href="index.html">Kembali ke Beranda</a> | 
+            <a href="#biodata">Data Diri</a> | 
+            <a href="#form-biodata">Form Biodata Mahasiswa</a> | 
+            <a href="#multimedia">Video Profil</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="biodata">
+            <h2>Data Diri Mahasiswa</h2>
+            <table border="1">
+                <caption>Tabel Informasi Akademik Mahasiswa</caption>
+                <thead>
+                    <tr>
+                        <th>Parameter</th>
+                        <th>Keterangan Lengkap</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>NIM</td>
+                        <td>312510040</td>
+                    </tr>
+                    <tr>
+                        <td>Nama Lengkap</td>
+                        <td>Nabila Lutfia Sari</td>
+                    </tr>
+                    <tr>
+                        <td>Kelas</td>
+                        <td>TI25A</td>
+                    </tr>
+                    <tr>
+                        <td>Program Studi</td>
+                        <td>Teknik Informatika</td>
+                    </tr>
+                    <tr>
+                        <td>Fakultas</td>
+                        <td>Fakultas Teknik</td>
+                    </tr>
+                    <tr>
+                        <td>Perguruan Tinggi</td>
+                        <td>Universitas Pelita Bangsa</td>
+                    </tr>
+                    <tr>
+                        <td>Status Akademik</td>
+                        <td>Aktif (Semester Gasal)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="form-biodata">
+            <h2>Form Biodata Mahasiswa</h2>
+            <p>Silahkan isi atau perbarui informasi data diri pada form berikut. Kolom dengan tanda bintang (*) wajib diisi.</p>
+            
+            <form>
+                <label for="b_nama">Nama Lengkap *:</label><br>
+                <input type="text" id="b_nama" name="nama" value="Nabila Lutfia Sari" required minlength="3"><br><br>
+
+                <label for="b_nim">NIM *:</label><br>
+                <input type="text" id="b_nim" name="nim" value="312510040" required><br><br>
+
+                <label for="b_email">Alamat Email *:</label><br>
+                <input type="email" id="b_email" name="email" required><br><br>
+
+                <label for="b_tanggal">Tanggal Lahir *:</label><br>
+                <input type="date" id="b_tanggal" name="tanggal"><br><br>
+
+                <label for="b_prodi">Program Studi *:</label><br>
+                <select id="b_prodi" name="prodi" required>
+                    <option value="ti">Teknik Informatika</option>
+                    <option value="si">Sistem Informasi</option>
+                </select><br><br>
+
+                <h3>Bidang Minat & Keahlian:</h3>
+                <input type="checkbox" id="web" name="skill" checked>
+                <label for="web">Web Development</label>
+                <input type="checkbox" id="mobile" name="skill">
+                <label for="mobile">Mobile Apps</label>
+                <input type="checkbox" id="ai" name="skill">
+                <label for="ai">Data Science & AI</label>
+                <input type="checkbox" id="net" name="skill">
+                <label for="net">Networking</label><br><br>
+
+                <label for="b_alamat">Alamat Domisili *:</label><br>
+                <textarea id="b_alamat" name="alamat" rows="4" cols="40" required></textarea><br><br>
+
+                <button type="submit">Simpan Biodata</button>
+                <button type="reset">Reset</button>
+            </form>
+        </section>
+
+        <section id="multimedia">
+            <h2>Multimedia Profil & Footer</h2>
+            <h3>Video Perkenalan Mahasiswa</h3>
+            <video controls width="400">
+                <source src="media/video.mp4" type="video/mp4">
+                Browser tidak mendukung video.
+            </video>
+
+            <h3>Halaman Audio Sapaan</h3>
+            <audio controls>
+                <source src="media/audio.mp3" type="audio/mpeg">
+                Browser tidak mendukung audio.
+            </audio>
+        </section>
+    </main>
+
+    <footer>
+        <hr>
+        <p>Catatan Akademik:</p>
+        <p>Halaman ini merupakan implementasi proyek mini yang menggabungkan elemen HTML lanjutan, struktur semantik, multimedia, interaktif formulir, dan navigasi dokumen HTML.</p>
+        <p>&copy; 2026 Pemrograman Web - Universitas Pelita Bangsa | Nabila Lutfia Sari (312510040)</p>
+    </footer>
+</body>
+</html>
